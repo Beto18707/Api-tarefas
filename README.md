@@ -1,5 +1,5 @@
 API de Tarefas
-Esta é uma API RESTful projetada para um gerenciamento eficiente de tarefas, permitindo aos usuários criar, ler, atualizar e excluir suas tarefas de forma simplificada.
+é uma API RESTful projetada para um gerenciamento eficiente de tarefas, permitindo aos usuários criar, ler, atualizar e excluir suas tarefas de forma simplificada.
 
 ✨ Funcionalidades
 A API de Tarefas oferece um conjunto essencial de funcionalidades para a gestão de afazeres. Os usuários podem criar novas tarefas, adicionando título, descrição e status. É possível listar todas as tarefas ou filtrá-las conforme a necessidade (por status, usuário, etc.). Para detalhes específicos, a API permite a visualização de uma tarefa individual através de seu ID. A flexibilidade é garantida com a capacidade de atualizar tarefas existentes, modificando qualquer informação relevante, e a exclusão de tarefas quando não são mais necessárias. 
