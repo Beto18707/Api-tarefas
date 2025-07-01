@@ -1,7 +1,14 @@
-API de TarefasEsta é uma API RESTful para gerenciar tarefas. Ela permite que os usuários criem, leiam, atualizem e excluam tarefas de forma eficiente.🚀 Tecnologias UtilizadasLinguagem de Programação: [Ex: Node.js, Python, Java, Ruby, PHP, Go]Framework: [Ex: Express.js, Flask, Spring Boot, Ruby on Rails, Laravel, Gin]Banco de Dados: [Ex: PostgreSQL, MySQL, MongoDB, SQLite]Outras Bibliotecas/Ferramentas: [Ex: Docker, JWT para autenticação, Mongoose, Sequelize, SQLAlchemy]✨ FuncionalidadesA API de Tarefas oferece as seguintes funcionalidades principais:Criação de Tarefas: Adicione novas tarefas com título, descrição e status.Listagem de Tarefas: Recupere todas as tarefas ou filtre-as por status, usuário, etc.Visualização de Tarefa Específica: Obtenha os detalhes de uma única tarefa pelo seu ID.Atualização de Tarefas: Modifique informações de tarefas existentes (título, descrição, status).Exclusão de Tarefas: Remova tarefas do sistema.[Adicione aqui outras funcionalidades, como autenticação de usuário, atribuição de tarefas, prazos, etc.]🛠️ Instalação e ConfiguraçãoSiga os passos abaixo para configurar e rodar a API localmente:Instale as Dependências:# Para Node.js
-npm install
+API de Tarefas
+Esta é uma API RESTful projetada para um gerenciamento eficiente de tarefas, permitindo aos usuários criar, ler, atualizar e excluir suas tarefas de forma simplificada.
 
-# Para Python
+✨ Funcionalidades
+A API de Tarefas oferece um conjunto essencial de funcionalidades para a gestão de afazeres. Os usuários podem criar novas tarefas, adicionando título, descrição e status. É possível listar todas as tarefas ou filtrá-las conforme a necessidade (por status, usuário, etc.). Para detalhes específicos, a API permite a visualização de uma tarefa individual através de seu ID. A flexibilidade é garantida com a capacidade de atualizar tarefas existentes, modificando qualquer informação relevante, e a exclusão de tarefas quando não são mais necessárias. 
+[Adicione aqui outras funcionalidades, como autenticação de usuário, atribuição de tarefas, prazos, etc.]
+
+🛠️ Instalação e ConfiguraçãoSiga os passos abaixo para configurar e rodar a API localmente:
+Instale as Dependências:# Para Node.js
+npm install
+Para Python
 pip install -r requirements.txt
 
 # [Adicione comandos para outras linguagens/ambientes]
