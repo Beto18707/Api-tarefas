@@ -1,3 +1,4 @@
+LEIA A DOCUMENTAÇÂO NO FORMATO CODIGO
 API de Tarefas
 é uma API RESTful projetada para um gerenciamento eficiente de tarefas, permitindo aos usuários criar, ler, atualizar e excluir suas tarefas de forma simplificada.
 
