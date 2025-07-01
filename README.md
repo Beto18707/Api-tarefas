@@ -9,7 +9,7 @@ A API de Tarefas oferece um conjunto essencial de funcionalidades para a gestão
 Instale as Dependências:# Para Node.js
 npm install
 Para Python
-pip install -r requirements.txt
+pip install -r 
 
 # [Adicione comandos para outras linguagens/ambientes]
 Configuração do Banco de Dados:Crie um banco de dados com o nome [nome_do_seu_banco_de_dados].Configure as variáveis de ambiente para a conexão com o banco de dados. Crie um arquivo .env na raiz do projeto com o seguinte formato:DB_HOST=[seu_host_do_banco]
@@ -21,9 +21,7 @@ DB_NAME=[nome_do_seu_banco_de_dados]
 [Adicione comandos para rodar migrations, seeders, etc., se aplicável]Inicie a Aplicação:# Para Node.js
 npm start
 
-# Para Python
-python app.py
-# ou flask run, gunicorn app:appA API estará disponível em http://localhost:[PORTA_DA_API].📖 Uso da APIA seguir estão exemplos de como interagir com os principais endpoints da API.EndpointsGET /api/tarefas: Lista todas as tarefas.GET /api/tarefas/{id}: Retorna uma tarefa específica pelo ID.POST /api/tarefas: Cria uma nova tarefa.PUT /api/tarefas/{id}: Atualiza uma tarefa existente.DELETE /api/tarefas/{id}: Exclui uma tarefa.[Adicione outros endpoints, como /api/auth/register, /api/auth/login, etc.]Exemplos de Requisições1. Listar Todas as TarefasGET /api/tarefas
+📖 Uso da APIA seguir estão exemplos de como interagir com as rotas post,get,put e delete
 Host: localhost:[PORTA_DA_API]
 Resposta de Exemplo (200 OK):[
   {
@@ -80,20 +78,20 @@ Resposta de Exemplo (200 OK):{
 
 4. Excluir TarefaDELETE /api/tarefas/789
 Host: localhost:[PORTA_DA_API]
-Resposta de Exemplo (204 No Content)📂 Estrutura do Projeto.
+
+📂 Estrutura do Projeto.
 ├── src/
-│   ├── controllers/    # Lógica de negócio para cada endpoint
-│   ├── models/         # Definições de modelos de dados
-│   ├── routes/         # Definição das rotas da API
-│   ├── services/       # Lógica de serviço (opcional, para complexidade maior)
-│   └── app.js          # Ponto de entrada da aplicação
-├── config/             # Arquivos de configuração (banco de dados, etc.)
-├── tests/              # Testes unitários e de integração
-├── .env.example        # Exemplo de arquivo de variáveis de ambiente
-├── package.json        # Dependências e scripts (Node.js)
-├── requirements.txt    # Dependências (Python)
-└── README.md           # Este arquivo
-```[Ajuste esta estrutura para refletir a organização real do seu projeto.]`
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   ├── services/
+│   └── app.js
+├── config/
+├── tests/
+├── .env.example
+├── package.json
+├── requirements.txt
+└── README.md
 
 ## 📄 Licença
 Este projeto está licenciado sob a liderança de Weberton Assis Silva De Oliveira.
